@@ -1,6 +1,8 @@
 *
 !*/
 !*.md
+!*.cpp
 !*.py
+!*.rb
 !**/.gitignore
 

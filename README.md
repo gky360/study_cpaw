@@ -1,2 +1,4 @@
-# study_cpaw
-https://ctf.cpaw.site
+# study_ctf
+
+- cpaw: https://ctf.cpaw.site
+- knsctf: https://ksnctf.sweetduet.info/

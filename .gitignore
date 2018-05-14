@@ -1,10 +1,12 @@
 *
 !*/
+!*.txt
 !*.md
 !*.sh
 !*.c
 !*.cpp
 !*.py
 !*.rb
+!*.js
 !**/.gitignore
 

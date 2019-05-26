@@ -1,0 +1,5 @@
+!himitsu/**/*
+*.min.js
+*.map
+*.min.css
+bootstrap*

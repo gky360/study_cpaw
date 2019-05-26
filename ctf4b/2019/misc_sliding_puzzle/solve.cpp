@@ -68,7 +68,7 @@ pii zero_loc(Board &board) {
     return {-1, -1};
 }
 
-vector<int> solve(Board &board) {
+Path solve(Board &board) {
     set<Board> visited;
     queue<pair<Board, Path>> q;
 
@@ -109,7 +109,7 @@ vector<int> solve(Board &board) {
 int main() {
     Board board = read_board(cin);
 
-    vector<int> ans = solve(board);
+    Path ans = solve(board);
 
     int len = ans.size();
     for (int i = 0; i < len; i++) {

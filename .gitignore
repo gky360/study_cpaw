@@ -8,5 +8,8 @@
 !*.py
 !*.rb
 !*.js
+!*.go
+!*.php
+!*.html
 !**/.gitignore
 

